@@ -2,7 +2,7 @@
 import openai
 import json
 
-openai.api_key = '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'
+openai.api_key = ''
 
 def get_prompt(i):
     prompt1_list = ['x^2 - -17x + c = 0 + c',
