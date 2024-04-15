@@ -29,7 +29,7 @@ pdf_path = "missed_questions.pdf"
 base64_images = pdf_pages_to_base64(pdf_path)
 
 # openai version: 1.14.3
-client = OpenAI(api_key = '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')
+client = OpenAI(api_key = '')
 
 prompt = """
     This is an image of a pdf.  Put this image in the JSON format below.  If there is a graph or geometric figure, put in the figure description key value a description of the graph or figure for someone who cannot see the graph or figure.  If there is no graph or figure, leave the figure description as an empty string.
