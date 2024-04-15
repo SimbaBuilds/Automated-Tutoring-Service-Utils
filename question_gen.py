@@ -2,7 +2,7 @@
 import openai
 import json
 
-openai.api_key = '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'
+openai.api_key = ''
 
 
 
