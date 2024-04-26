@@ -12,7 +12,7 @@ PG_HOST = 'localhost'
 PG_PORT = '5432'
 PG_DATABASE = 'question_bank'
 PG_USER = ''
-PG_PASSWORD = '!'
+PG_PASSWORD = ''
 GC_BUCKET_NAME = 'question_bank_files'
 
 
