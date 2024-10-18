@@ -18,7 +18,7 @@ def get_prompt(i):
 
     prompt1 = f"""
 
-    Generate another question like the one below, utilizing the expression: {prompt1_list[i%10-1]}, formatted in JSON as below.
+    Generate a question utilizing the expression: {prompt1_list[i%10-1]}, formatted in JSON as below.
     All mathematical language needs to be converted to LaTeX utilizing single dollar signs for inline math mode and double dollar signs for a displayed equation. 
     Backslashes must be double escaped to ensure compatibility with JSON (e.g. \\\\), \\\\(, \\\\frac ).
     Make sure the math is correct.
@@ -45,7 +45,7 @@ def get_prompt(i):
     'x^2 + 7x + 1',
     'x^2 + 3x + -1']
     prompt2 = f"""
-    Generate another question like the one below, utilizing the expression: {prompt2_list[i%10-1]}, formatted in JSON as below.
+    Generate a question utilizing the expression: {prompt2_list[i%10-1]}, formatted in JSON as below.
     All mathematical language needs to be converted to LaTeX utilizing single dollar signs for inline math mode and double dollar signs for a displayed equation. 
     Backslashes must be double escaped to ensure compatibility with JSON (e.g. \\\\), \\\\(, \\\\frac ).
     Make sure the math is correct.
@@ -73,7 +73,7 @@ def get_prompt(i):
     'x^2 + y^2 + 0x + 5y + 11 = 0',
     'x^2 + y^2 + 9x + 6y + 15 = 0']
     prompt3 = f"""
-    Generate another question like the one below, utilizing the expression: {prompt3_list[i%10-1]}, formatted in JSON as below.
+    Generate a question utilizing the expression: {prompt3_list[i%10-1]}, formatted in JSON as below.
     All mathematical language needs to be converted to LaTeX utilizing single dollar signs for inline math mode and double dollar signs for a displayed equation. 
     Backslashes must be double escaped to ensure compatibility with JSON (e.g. \\\\), \\\\(, \\\\frac ).
     Make sure the math is correct.
